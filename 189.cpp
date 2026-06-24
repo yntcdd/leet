@@ -7,6 +7,7 @@ public:
         Reverse(nums, 0, k - 1);
         Reverse(nums, k, n - 1);
     }
+    
     void Reverse(vector<int>& nums, int s, int e) {
         while (e > s) {
             int temp = nums[s];
